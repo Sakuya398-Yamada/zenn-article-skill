@@ -32,6 +32,14 @@ articles/
 └── <slug>.md    # slug: 12〜50文字、半角英小文字・数字・ハイフン・アンダースコアのみ
 ```
 
+#### .gitignoreの設定
+
+記事ファイルはGitHub管理対象外とする。`articles/`ディレクトリが`.gitignore`に含まれていない場合、記事作成前に以下を`.gitignore`に追加すること:
+
+```
+articles/
+```
+
 #### Frontmatter
 
 ```yaml
