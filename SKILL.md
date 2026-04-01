@@ -58,7 +58,8 @@ published: false
 slugの命名規則:
 - 12〜50文字
 - 使用可能文字: `a-z`, `0-9`, `-`, `_`
-- 内容を端的に表す英語名にする（例: `setup-react-testing-library`）
+- **ファイル名の先頭に日付を `YYYYMMDD-` の形式で付与する**（例: `20260401-setup-react-testing-library`）
+- 日付の後に内容を端的に表す英語名を続ける
 
 ### 3. 記事の構成
 
